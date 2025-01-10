@@ -3,4 +3,3 @@
 (tag) @keyword
 (options) @keyword
 (section_name) @function
-
