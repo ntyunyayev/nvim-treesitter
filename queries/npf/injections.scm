@@ -8,3 +8,6 @@
 ((python_content) @injection.content
  (#set! injection.language "python"))
 
+((lua_content) @injection.content
+ (#set! injection.language "lua"))
+
