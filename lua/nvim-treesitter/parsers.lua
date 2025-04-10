@@ -191,6 +191,14 @@ list.bitbake = {
   maintainers = { "@amaanq" },
 }
 
+list.blade = {
+  install_info = {
+    url = "https://github.com/EmranMR/tree-sitter-blade",
+    files = { "src/parser.c" },
+  },
+  maintainers = { "@calebdw" },
+}
+
 list.blueprint = {
   install_info = {
     url = "https://gitlab.com/gabmus/tree-sitter-blueprint.git",
@@ -223,6 +231,14 @@ list.c_sharp = {
   },
   filetype = "cs",
   maintainers = { "@amaanq" },
+}
+
+list.caddy = {
+  install_info = {
+    url = "https://github.com/opa-oz/tree-sitter-caddy",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@opa-oz" },
 }
 
 list.cairo = {
@@ -1117,6 +1133,14 @@ list.java = {
     files = { "src/parser.c" },
   },
   maintainers = { "@p00f" },
+}
+
+list.javadoc = {
+  install_info = {
+    url = "https://github.com/rmuir/tree-sitter-javadoc",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@rmuir" },
 }
 
 list.javascript = {
@@ -2323,6 +2347,14 @@ list.tcl = {
     files = { "src/parser.c", "src/scanner.c" },
   },
   maintainers = { "@lewis6991" },
+}
+
+list.tera = {
+  install_info = {
+    url = "https://github.com/uncenter/tree-sitter-tera",
+    files = { "src/parser.c", "src/scanner.c" },
+  },
+  maintainers = { "@uncenter" },
 }
 
 list.terraform = {
